@@ -1,0 +1,4 @@
+@echo off
+echo Starting Checkmarx scan...
+cx scan create --project-name "JuiceShopDemo" --source-dir "." --branch "main"
+pause
